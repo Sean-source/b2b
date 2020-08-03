@@ -1,0 +1,75 @@
+.profile {
+    width: 1200px;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+.firstside {
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 5vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture {
+    width: 22em;
+    border-radius: 50%;
+    border: solid black;
+    height: 22em;
+    margin: 0 auto;
+    display: flex;
+}
+
+.secondside {
+    display: flex;
+    width: 37em;
+    align-items: center;
+    height: 37em;
+    justify-content: center;
+}
+
+.button1 {
+    margin-top: 10vh;
+}
+
+.button2 {
+    margin-top: 10vh;
+}
+
+.description {
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border: solid;
+}
+
+hr {
+    margin: 15vh;
+    border: solid;
+}
+
+@media screen and (max-width: 1092px) {
+    .secondside {
+        width: 30em;
+        height: 30em;
+    }
+    .picture {
+        width: 18em;
+        height: 18em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .secondside {
+        width: 25em;
+        height: 25em;
+    }
+    .picture {
+        width: 15em;
+        height: 15em;
+    }
+}

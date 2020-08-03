@@ -1,0 +1,59 @@
+.app{
+    max-width: 1200px;
+    width: 96%;
+    margin: 0 auto;
+  }
+  
+  
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 50px;
+  }
+  
+  .tennis-pros{
+    border: 1px solid gray;
+    width: 40%;
+    padding-bottom: 40px;
+    margin-right: 4%;
+  }
+  
+  .tennis-pros .title{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 15px 12px;
+  }
+  
+  .tennis-pros .contents{
+    padding: 0 12px;
+  }
+  
+  .pro-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .pro-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid gray;
+    margin-right: 4%;
+  }
+  
+  .pro-description{
+    flex: 1;
+    height: 60px;
+    border: 1px solid gray;
+  }
+  
+  .calendar{
+    height: 394.8px;
+    border: 1px solid gray;
+    flex: 2;
+    border-radius: 40px 20%;
+  }
